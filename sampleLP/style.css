@@ -20,3 +20,25 @@ header {
     width: 30%;
 }
 /* header finish */
+
+/* footerのCSS */
+footer {
+    background-color: #888888;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+}
+
+
+.footer-icon img {
+    width: 200px;
+}
+.sns-icons img {
+    width: 4.4rem;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+/* footerここまで */

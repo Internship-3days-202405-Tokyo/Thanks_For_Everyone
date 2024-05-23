@@ -1,3 +1,158 @@
+.fixed1{
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 390px;
+    bottom: 10;
+    left: 400px;
+    margin: auto;
+    border-radius: 30px;
+    background: #f9d4d8;
+}
+.fixed2{
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    bottom: 10;
+    left: 800px;
+    margin: auto;
+    border-radius: 30px;
+    background: #f9d4d8;
+}
+
+.under_line{
+    text-decoration-line: none; 
+}
+
+.fixed1:hover{
+    background-color: #fcc7ce;
+}
+.fixed2:hover{
+    background-color: #fcc7ce;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+}
+
+main{
+    background-image: url("imgs/青空.jpg");
+    background-size: cover;
+}
+
+
+.seisyun_images{
+    display: flex;
+    grid-template-columns: 200px 1px 200px 1px 200px;
+    gap: 100px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.plus1{
+    position: absolute;
+    top: 140;
+    left: 430;
+    font-size:150px;
+    padding:0;
+    margin:0;
+}
+
+.plus2{
+    position: absolute;
+    top: 140;
+    left: 930;
+    font-size:150px;
+    padding:0;
+    margin:0;
+}
+
+.machine1{
+    position: relative;
+    top:100;
+}
+.karaoke{
+    position: relative;
+    top:100;
+}
+.beauty{
+    position: relative;
+    top:100;
+}
+.exercise_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(255, 0, 0);
+    padding:0;
+    margin:0;
+}
+.entertainment_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(0, 242, 255);
+    padding:0;
+    margin:0;
+}
+.beauty_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(255, 0, 191);
+    padding:0;
+    margin:0;
+}
+
+.machine1 img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.karaoke img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.beauty img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.br1{
+    display: block;
+    content: '';
+    height: 150px;
+}
+
+.catch_copy{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "ヒラギノ明朝 ProN";
+}
+
+.br2{
+    display: block;
+    content: '';
+    height: 600px;
+}
+
 /* header start */
 header {
     display: flex;

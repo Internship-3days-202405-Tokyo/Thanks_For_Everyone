@@ -1,11 +1,4 @@
 /* header start */
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh; 
-    background: linear-gradient(to right, #99CCFF, #ffffff, #99CCFF); /* グラデーションの設定 */
-}
 
 .header {
     display: flex;
@@ -19,235 +12,7 @@ header {
     margin: 0 auto; 
     width: 30%;
 }
-/* header finish */
 
-
-/*ここからメイン上*/
-
-.fixed1{
-    position: fixed;
-    text-align: center;
-    font-size: 30px;
-    height: 50px;
-    width: 390px;
-    bottom: 10;
-    left: 400px;
-    margin: auto;
-    border-radius: 30px;
-    background: #f9d4d8;
-}
-.fixed2{
-    position: fixed;
-    text-align: center;
-    font-size: 30px;
-    height: 50px;
-    width: 200px;
-    bottom: 10;
-    left: 800px;
-    margin: auto;
-    border-radius: 30px;
-    background: #f9d4d8;
-}
-
-.under_line{
-    text-decoration-line: none; 
-}
-
-.fixed1:hover{
-    background-color: #fcc7ce;
-}
-.fixed2:hover{
-    background-color: #fcc7ce;
-}
-
-a:link, a:visited, a:hover, a:active {
-    color: #000000;
-}
-
-main{
-    background-image: url("imgs/青空.jpg");
-    background-size: cover;
-}
-
-.seisyun_images{
-    display: flex;
-    grid-template-columns: 200px 1px 200px 1px 200px;
-    gap: 100px;
-    max-width: fit-content;
-    margin: auto;
-}
-
-.plus1{
-    position: absolute;
-    top: 280;
-    left: 430;
-    font-size:150px;
-    padding:0;
-    margin:0;
-}
-
-.plus2{
-    position: absolute;
-    top: 280;
-    left: 930;
-    font-size:150px;
-    padding:0;
-    margin:0;
-}
-
-.machine1{
-    position: relative;
-    top:100;
-}
-.karaoke{
-    position: relative;
-    top:100;
-}
-.beauty{
-    position: relative;
-    top:100;
-}
-.exercise_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:75px;
-    font-family: "ヒラギノ明朝 ProN";
-    color: rgb(255, 0, 0);
-    padding:0;
-    margin:0;
-}
-.entertainment_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:75px;
-    font-family: "ヒラギノ明朝 ProN";
-    color: rgb(0, 242, 255);
-    padding:0;
-    margin:0;
-}
-.beauty_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 75px;
-    font-family: "ヒラギノ明朝 ProN";
-    color: rgb(255, 0, 191);
-    padding:0;
-    margin:0;
-}
-
-.machine1 img{
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    width:  300px;       
-    height: 300px;
-}
-
-.karaoke img{
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    width:  300px;       
-    height: 300px;
-}
-
-.beauty img{
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    width:  300px;       
-    height: 300px;
-}
-
-.br1{
-    display: block;
-    content: '';
-    height: 150px;
-}
-
-.catch_copy{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    font-family: "ヒラギノ明朝 ProN";
-}
-
-.br2{
-    display: block;
-    content: '';
-    height: 600px;
-}
-
-
-
-/*ここからメイン下*/
- #main2-topic {
-   /*background-image: url('imgs/item-bluesky.jpeg');*/
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   padding: 50px 0; 
- }
- 
-/*料金表示*/
-.cost-abstract{
-   position: relative;
-   font-size: 50;
-   padding: 1rem .5rem;
-   background-color: white;
-}
-
-.cost-abstract-items{
-   display: flex;
-   justify-content: center;
-   color: red;
-}
-
- .cost-abstract-items h3{
-   font-size: 30;
-   color: black;
-   margin-top:50px;
-   margin-left: 20px; 
-} 
-
-.cost-abstract h1:after{
-   position: absolute;
-   bottom: 0;
-   left: 25%;
-   width: 50%;
-   height: 6px;
-   content: '';
-   border-radius: 3px;
-   background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
-   background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
- }
-
-/*料金表示ここまで*/
-
-/*メイン2の画像スライドショー*/
-
-.machine-image-contens_items{
-    position: relative;
-    width: 40%;
-    height: 50%;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding: 20px;
- }
-
-
-.img-01, .img-02, .img-03{
-   position: absolute;
-   top:0;
-   left:0;
-   width: 100%;
-   height: 100%;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-/* header start */
 .header {
     display: flex;
     justify-content: space-between;
@@ -356,6 +121,238 @@ main{
     to {
         transform: translateX(-50%);
     }
+}
+
+/* header finish */
+
+
+/*ここからメイン上*/
+
+.fixed1{
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 390px;
+    bottom: 10;
+    left: 400px;
+    margin: auto;
+    border-radius: 30px;
+    background: #f9d4d8;
+    z-index: 1;
+}
+.fixed2{
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    bottom: 10;
+    left: 800px;
+    margin: auto;
+    border-radius: 30px;
+    background: #f9d4d8;
+    z-index: 2;
+}
+
+.under_line{
+    text-decoration-line: none; 
+}
+
+.fixed1:hover{
+    background-color: #fcc7ce;
+}
+.fixed2:hover{
+    background-color: #fcc7ce;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+}
+
+main{
+    background-image: url("imgs/青空.jpg");
+    background-size: cover;
+}
+
+.seisyun_images{
+    display: flex;
+    grid-template-columns: 200px 1px 200px 1px 200px;
+    gap: 100px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.plus1{
+    position: absolute;
+    top: 250;
+    left: 430;
+    font-size:150px;
+    padding:0;
+    margin:0;
+}
+
+.plus2{
+    position: absolute;
+    top: 250;
+    left: 930;
+    font-size:150px;
+    padding:0;
+    margin:0;
+}
+
+.machine1{
+    position: relative;
+    top:100;
+}
+.karaoke{
+    position: relative;
+    top:100;
+}
+.beauty{
+    position: relative;
+    top:100;
+}
+.exercise_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(255, 0, 0);
+    padding:0;
+    margin:0;
+}
+.entertainment_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(0, 242, 255);
+    padding:0;
+    margin:0;
+}
+.beauty_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    font-family: "ヒラギノ明朝 ProN";
+    color: rgb(255, 0, 191);
+    padding:0;
+    margin:0;
+}
+
+.machine1 img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.karaoke img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.beauty img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  300px;       
+    height: 300px;
+}
+
+.br1{
+    display: block;
+    content: '';
+    height: 150px;
+}
+
+.catch_copy{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "ヒラギノ明朝 ProN";
+}
+
+.br2{
+    display: block;
+    content: '';
+    height: 10px;
+}
+
+
+
+/*ここからメイン下*/
+ #main2-topic {
+   /*background-image: url('imgs/item-bluesky.jpeg');*/
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 50px 0; 
+ }
+ 
+/*料金表示*/
+.cost-abstract{
+   position: relative;
+   font-size: 50;
+   padding: 1rem .5rem;
+   background-color: white;
+}
+
+.cost-abstract-items{
+   display: flex;
+   justify-content: center;
+   color: red;
+}
+
+ .cost-abstract-items h3{
+   font-size: 30;
+   color: black;
+   margin-top:50px;
+   margin-left: 20px; 
+} 
+
+.cost-abstract h1:after{
+   position: absolute;
+   bottom: 0;
+   left: 25%;
+   width: 50%;
+   height: 6px;
+   content: '';
+   border-radius: 3px;
+   background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+   background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+ }
+
+/*料金表示ここまで*/
+
+/*メイン2の画像スライドショー*/
+
+.machine-image-contens_items{
+    position: relative;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+ }
+
+
+.img-01, .img-02, .img-03{
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+
 }
 
 .img-01{

@@ -185,7 +185,7 @@ main{
 
 .plus1{
     position: absolute;
-    top: 280;
+    top: 250;
     left: 430;
     font-size:150px;
     padding:0;
@@ -194,7 +194,7 @@ main{
 
 .plus2{
     position: absolute;
-    top: 280;
+    top: 250;
     left: 930;
     font-size:150px;
     padding:0;

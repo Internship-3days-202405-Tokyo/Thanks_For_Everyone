@@ -298,25 +298,28 @@ main{
 /*料金表示*/
 .cost-abstract{
    position: relative;
-   font-size: 50;
+   font-size: 80;
    padding: 1rem .5rem;
-   background-color: white;
 }
 
 .cost-abstract-items{
    display: flex;
    justify-content: center;
-   color: red;
+   color: white;
 }
 
- .cost-abstract-items h3{
+.cost-abstract-item1{
+    text-shadow: 3px 3px 10px black;
+ } 
+
+ .cost-abstract-item2{
    font-size: 30;
    color: black;
-   margin-top:50px;
+   margin-top:55px;
    margin-left: 20px; 
 } 
 
-.cost-abstract h1:after{
+.cost-abstract-item1:after{
    position: absolute;
    bottom: 0;
    left: 25%;

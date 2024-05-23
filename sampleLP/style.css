@@ -152,3 +152,48 @@ main{
     content: '';
     height: 600px;
 }
+
+/* header start */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    background: linear-gradient(to right, #99CCFF, #ffffff, #99CCFF); /* グラデーションの設定 */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.header img {
+    display: block;
+    margin: 0 auto; 
+    width: 30%;
+}
+/* header finish */
+
+/* footerのCSS */
+footer {
+    background-color: #888888;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+}
+
+
+.footer-icon img {
+    width: 200px;
+}
+.sns-icons img {
+    width: 4.4rem;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+/* footerここまで */

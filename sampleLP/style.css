@@ -190,6 +190,8 @@ main{
     font-size:150px;
     padding:0;
     margin:0;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
 }
 
 .plus2{
@@ -199,6 +201,8 @@ main{
     font-size:150px;
     padding:0;
     margin:0;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
 }
 
 .machine1{
@@ -220,10 +224,15 @@ main{
     transform: translate(-50%, -50%);
     font-size:75px;
     font-family: "ヒラギノ明朝 ProN";
-    color: rgb(255, 0, 0);
+    color: rgb(255, 142, 3);
     padding:0;
     margin:0;
+    -webkit-text-stroke-color: rgb(204, 121, 4);
+    -webkit-text-stroke-width: 1.5px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
+
 .entertainment_text{
     position: absolute;
     top: 50%;
@@ -231,9 +240,12 @@ main{
     transform: translate(-50%, -50%);
     font-size:75px;
     font-family: "ヒラギノ明朝 ProN";
-    color: rgb(0, 242, 255);
+    color: rgb(225, 255, 0);
     padding:0;
     margin:0;
+    -webkit-text-stroke-color: rgb(255, 242, 0);
+    -webkit-text-stroke-width: 1.5px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .beauty_text{
     position: absolute;
@@ -242,9 +254,12 @@ main{
     transform: translate(-50%, -50%);
     font-size: 75px;
     font-family: "ヒラギノ明朝 ProN";
-    color: rgb(255, 0, 191);
+    color: rgb(251, 0, 255);
     padding:0;
     margin:0;
+    -webkit-text-stroke-color: rgb(174, 1, 177);
+    -webkit-text-stroke-width: 1.5px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .machine1 img{
@@ -276,6 +291,8 @@ main{
     font-size: 50px;
     color: rgb(0, 0, 0);
     font-family: "ヒラギノ明朝 ProN";
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
 }
 
 .br2{

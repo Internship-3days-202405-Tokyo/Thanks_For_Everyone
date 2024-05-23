@@ -178,11 +178,12 @@ header {
 /* footerのCSS */
 footer {
     background-color: #888888;
-    height: 200px;
+    height: 300px;
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
+    text-align: center;
 }
 
 
@@ -195,4 +196,15 @@ footer {
     /* border-radius: 50%; */
 }
 
+
+.footer-nav {
+    display: flex;
+    /* margin: 0 auto; */
+}
+
+.footer-nav li {
+    list-style: none;
+    text-decoration: none;
+} 
 /* footerここまで */
+

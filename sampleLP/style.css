@@ -1,3 +1,123 @@
 div.header {
     color:blue
 }
+
+ #main2-topic {
+   /*background-image: url('imgs/item-bluesky.jpeg');*/
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 50px 0; 
+ }
+ 
+/*料金表示*/
+.cost-abstract{
+   position: relative;
+   font-size: 50;
+   padding: 1rem .5rem;
+   background-color: white;
+}
+
+.cost-abstract-items{
+   display: flex;
+   justify-content: center;
+   color: red;
+}
+
+ .cost-abstract-items h3{
+   font-size: 30;
+   color: black;
+   margin-top:50px;
+   margin-left: 20px; 
+} 
+
+.cost-abstract h1:after{
+   position: absolute;
+   bottom: 0;
+   left: 25%;
+   width: 50%;
+   height: 6px;
+   content: '';
+   border-radius: 3px;
+   background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+   background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+ }
+
+/*料金表示ここまで*/
+
+/*メイン2の画像スライドショー*/
+
+.machine-image-contens_items{
+    position: relative;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+ }
+
+
+.img-01, .img-02, .img-03{
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.img-01{
+   background-image: url('imgs/item-machine-1.jpeg');
+   animation: slide-animation-01 24s infinite;
+}
+.img-02{
+   background-image: url('imgs/item-sing-1.jpeg');
+   animation: slide-animation-02 24s infinite;
+}
+.img-03{
+   background-image: url('imgs/item-darts.jpeg');
+   animation: slide-animation-03 24s infinite;
+}
+/* .img-04{
+   background-image: url('imgs/item-este.jpeg');
+   animation: slide-animation-01 48s infinite;
+}
+.img-05{
+   background-image: url('imgs/item-machine-1.jpeg');
+   animation: slide-animation-02 48s infinite;
+}
+
+.img-06{
+   background-image: url('imgs/item-briyard.jpeg');
+   animation: slide-animation-03 48s infinite;
+} */
+
+@keyframes slide-animation-01 {
+    0% {opacity: 1; transform: scale(1.0);}
+  30% {opacity: 1;}
+  40% {opacity: 0; transform: scale(1.15);}
+  90% {opacity: 0}
+100% {opacity: 1; transform: scale(1.0);}
+}
+@keyframes slide-animation-02 {
+    0% {opacity: 0;}
+  30% {opacity: 0; transform: scale(1.1);}
+  40% {opacity: 1;}
+  60% {opacity: 1;}
+  70% {opacity: 0; transform: scale(1.0);}
+100% {opacity: 0;}
+}
+@keyframes slide-animation-03 {
+    0% {opacity: 0;}
+  60% {opacity: 0;  transform: scale(1.0);}
+  70% {opacity: 1;}
+  90% {opacity: 1;}
+100% {opacity: 0; transform: scale(1.1);}
+}
+
+
+
+    /*メイン2の画像スライドショー*/

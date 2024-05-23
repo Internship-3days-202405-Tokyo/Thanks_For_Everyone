@@ -69,7 +69,6 @@ main{
     background-size: cover;
 }
 
-
 .seisyun_images{
     display: flex;
     grid-template-columns: 200px 1px 200px 1px 200px;
@@ -80,7 +79,7 @@ main{
 
 .plus1{
     position: absolute;
-    top: 140;
+    top: 280;
     left: 430;
     font-size:150px;
     padding:0;
@@ -89,7 +88,7 @@ main{
 
 .plus2{
     position: absolute;
-    top: 140;
+    top: 280;
     left: 930;
     font-size:150px;
     padding:0;
@@ -180,6 +179,7 @@ main{
 }
 
 
+
 /*ここからメイン下*/
  #main2-topic {
    /*background-image: url('imgs/item-bluesky.jpeg');*/
@@ -246,6 +246,116 @@ main{
    height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
+
+/* header start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: url('imgs/flowCloud.png') repeat-x;
+    background-size: cover;
+    animation: moveClouds 60s linear infinite;
+    z-index: -1;
+}
+
+.header img {
+    height: 50px;
+    animation: fadeIn 2s ease-in;
+    z-index: 1;
+}
+
+.catchphrase {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slideIn 2s ease-in-out;
+    z-index: 1;
+}
+
+.join-button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    width: inherit;
+    min-width: 188px;
+    border: 2px solid #ffffff;
+    padding: 12px 16px;
+    position: relative;
+    opacity: 1 !important;
+    transition: all 0.3s;
+    z-index: 2;
+}
+
+.join-button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: #ffffff;
+    transition: all 0.3s;
+    pointer-events: none;
+    z-index: -1; 
+}
+
+.join-button span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+.join-button:hover {
+    transform: scale(0.9);
+}
+
+@keyframes moveClouds {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .img-01{
@@ -305,11 +415,12 @@ main{
 /* footerのCSS */
 footer {
     background-color: #888888;
-    height: 200px;
+    height: 300px;
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
+    text-align: center;
 }
 
 
@@ -322,4 +433,15 @@ footer {
     /* border-radius: 50%; */
 }
 
+
+.footer-nav {
+    display: flex;
+    /* margin: 0 auto; */
+}
+
+.footer-nav li {
+    list-style: none;
+    text-decoration: none;
+} 
 /* footerここまで */
+

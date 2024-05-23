@@ -139,6 +139,7 @@
     margin: auto;
     border-radius: 30px;
     background: #f9d4d8;
+    z-index: 1;
 }
 .fixed2{
     position: fixed;
@@ -151,6 +152,7 @@
     margin: auto;
     border-radius: 30px;
     background: #f9d4d8;
+    z-index: 2;
 }
 
 .under_line{

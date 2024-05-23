@@ -43,7 +43,6 @@ main{
     background-size: cover;
 }
 
-
 .seisyun_images{
     display: flex;
     grid-template-columns: 200px 1px 200px 1px 200px;
@@ -54,7 +53,7 @@ main{
 
 .plus1{
     position: absolute;
-    top: 140;
+    top: 280;
     left: 430;
     font-size:150px;
     padding:0;
@@ -63,7 +62,7 @@ main{
 
 .plus2{
     position: absolute;
-    top: 140;
+    top: 280;
     left: 930;
     font-size:150px;
     padding:0;

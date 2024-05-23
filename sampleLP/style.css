@@ -352,6 +352,7 @@ main{
    height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
+
 }
 
 .img-01{
@@ -411,33 +412,66 @@ main{
 /* footerのCSS */
 footer {
     background-color: #888888;
-    height: 300px;
+    height: 400px;
 }
 
 .footer {
     /* display: flex; */
     text-align: center;
+    height: 100%;
 }
 
 
 .footer-icon img {
-    width: 200px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .sns-icons img {
     width: 4.4rem;
     height: auto;
-    /* border-radius: 50%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
+.jamp:hover {
+    animation: jamp 0.9s linear 0s 1;
+  }
+  @keyframes jamp {
+    0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+    10%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+    40%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+    50%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
+    60%  { transform: scale(0.9, 1.2) translate(0%, -100%); }
+    75%  { transform: scale(0.9, 1.2) translate(0%, -20%); }
+    85%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+    100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  }
 
 
 .footer-nav {
     display: flex;
+    margin-top: 10px;
     /* margin: 0 auto; */
+    justify-content: center;
+    gap: 30px 30px;
 }
 
 .footer-nav li {
     list-style: none;
-    text-decoration: none;
 } 
+
+.footer-nav li a {
+    text-decoration: none;
+}
+
+.footer-nav li a:hover {
+    opacity: 0.7;
+}
+
+.footer p {
+    margin-top: 20px;
+}
 /* footerここまで */
 

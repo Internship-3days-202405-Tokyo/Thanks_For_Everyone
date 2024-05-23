@@ -175,7 +175,7 @@ main{
 .br2{
     display: block;
     content: '';
-    height: 600px;
+    height: 10px;
 }
 
 
@@ -246,6 +246,7 @@ main{
    height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
+}
 
 /* header start */
 .header {
